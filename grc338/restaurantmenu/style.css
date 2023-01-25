@@ -2,7 +2,16 @@
 h1{
     text-transform:uppercase;
     font-family: sans-serif;
+    background-color: rgb(180,180,180);
+    color: rgb(255,255,255);
+}
+.at{
+    font-family: serif;
+    text-transform:lowercase;
+
 }
 h2{
+    background-color: rgb(180,180,180);
+    color: rgb(255,255,255);
     font-family: serif;
 }
