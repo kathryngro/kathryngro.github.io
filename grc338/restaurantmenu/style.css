@@ -19,7 +19,7 @@ h1 {
 	background-color: rgb(180,180,180);
 	color:  rgb(245,245,245); /* Same as body background. */
 	font-size: 32em;
-	padding: 30em 15em 10em; /* You want three values. */
+	padding: 1rem 2rem 1rem; /* You want three values. */
 	font-weight: bold;
     font-family: sans-serif;
 	text-transform: uppercase;
@@ -36,32 +36,32 @@ h1 {
 h2 {
 	background-color: rgb(180,180,180);
 	color:  rgb(245,245,245);
-	font-size: 24em;
-	padding: 5em 15em 10em;
+	font-size: 28em;
+	padding: 1rem 1rem 1rem;
 	font-family: serif;
 	font-weight: bold;
 }
 h3 {
 	margin: ____ ____ ____; /*Three values again. You got the idea.*/
 	padding-top: _______;
-	font-size: _______;
-	color: _______;
-	font-weight: _______;
-	text-transform: _______;
-	letter-spacing: ____; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
+	font-size: 24em;
+	color: rgb(198, 28, 28);
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
 	border-top: ____ ____ ____;
 }
 
 h4 {
-	font-weight: _______;
+	font-weight: 20em;
 }
 
 p.description {
-	font-style: _______;
+	font-style: italic;
 }
 
 p.price {
-	color: _______;
+	color: rgb(198, 28, 28);
 }
 
 ul {
