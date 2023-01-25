@@ -1,4 +1,8 @@
 /*CSS DOCUMENT*/
-h1 {
-    padding:5em 2em 5em 2em;
+h1{
+    text-transform:uppercase;
+    font-family: sans-serif;
+}
+h2{
+    font-family: serif;
 }
