@@ -38,8 +38,10 @@ h3 {
     color:   rgb(255, 134, 35);
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    padding: 0.5rem 1.5rem 0.5rem
+    padding: 0.5rem 1.5rem 0.5rem;
+    border-top: 1px solid rgb(255, 134, 35);
 }
+
 li { 
     font-family: poppins, sans-serif;  
     font-weight: 400;  
@@ -73,10 +75,11 @@ ol{
 figure{
     display: grid;
     grid-template-columns: 3fr 1fr;
+    margin-bottom: 1em;
 }
 
 main{
     display:grid;
-    grid-template-columns:repeat(2 1fr);
+    grid-template-columns:repeat(2, 1fr);
     margin-bottom: 3em;
 }
